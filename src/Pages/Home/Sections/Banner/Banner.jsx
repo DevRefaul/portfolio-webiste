@@ -19,6 +19,11 @@ const Banner = () => {
             <h2 className="text-2xl lg:text-3xl font-semibold">
               Web Developer
             </h2>
+
+            {/* resume download btn */}
+            <button className="mt-6 bg-lime-500 px-6 py-3 rounded text-white font-semibold hover:bg-lime-400">
+              My Resume
+            </button>
           </div>
         </div>
 

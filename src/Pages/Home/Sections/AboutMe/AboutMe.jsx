@@ -14,8 +14,17 @@ const AboutMe = () => {
 
         {/* about me texts */}
         <div>
-          <h4>Hi, My name is MD.Refaul Islam</h4>
-          <p>I'm a enthusiast web developer. Because I have</p>
+          <h4 className="text-2xl font-semibold mb-2">
+            Hi, My name is MD.Refaul Islam
+          </h4>
+          <p className="text-lg font-normal">
+            I'm an enthusiast web developer. As a tech lover I always have the
+            aspiration to know more about technologies. And this aspiration has
+            landed me into web development. I always try to gather knowledge
+            about technologies about web developement. Currently I'm learning to
+            be a proper MERN stack developer. And in a few days I will start
+            learning Redux, TypeScript and Next.js .
+          </p>
         </div>
       </div>
     </div>
