@@ -3,7 +3,7 @@ import image from "../../../../Assets/smile.png";
 
 const Banner = () => {
   return (
-    <div className="bg-green-100 relative min-h-[70vh]">
+    <div className="bg-green-200 relative min-h-[70vh]">
       <div className="w-[90%] md:w-[80%] mx-auto grid gap-4 grid-cols-1 md:grid-cols-2 items-center justify-center py-8">
         {/* content */}
         <div className="flex justify-center">
@@ -28,7 +28,7 @@ const Banner = () => {
         </div>
 
         {/* my image */}
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center my-10 md:mt-0">
           <img
             src={image}
             alt=""
