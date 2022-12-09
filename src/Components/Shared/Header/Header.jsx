@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import resume from "../../../Assets/Main_Resume.pdf";
 
 const Header = () => {
   return (
@@ -53,10 +54,12 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
-          <Link className="btn bg-green-500 border-2 border-transparent hover:bg-white hover:text-green-400 hover:border-green-400">
-            Resume
-          </Link>
+        <div className="navbar-end hidden md:flex">
+          <button className="btn bg-green-500 border-2 border-transparent hover:bg-white hover:text-green-400 hover:border-green-400">
+            <a href={resume} download="MD.Refaul Islam's Resume.pdf">
+              Resume
+            </a>
+          </button>
         </div>
       </div>
     </div>

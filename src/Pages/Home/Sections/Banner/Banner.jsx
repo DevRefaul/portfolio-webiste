@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../../../../Assets/smile.png";
+import resume from "../../../../Assets/Main_Resume.pdf";
 
 const Banner = () => {
   return (
@@ -21,8 +22,10 @@ const Banner = () => {
             </h2>
 
             {/* resume download btn */}
-            <button className="mt-6 bg-lime-500 px-6 py-3 rounded text-white font-semibold hover:bg-lime-400">
-              My Resume
+            <button className="mt-6 bg-lime-500 px-6 py-3 rounded text-white font-semibold hover:bg-lime-400 cursor-pointer">
+              <a href={resume} download="MD.Refaul Islam's Resume.pdf">
+                My Resume
+              </a>
             </button>
           </div>
         </div>

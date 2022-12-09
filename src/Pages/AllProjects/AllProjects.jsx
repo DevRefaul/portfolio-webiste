@@ -24,6 +24,27 @@ const AllProjects = () => {
               seller or reported post. Admin can verify a seller after checking
               the application
             </p>
+
+            {/* github repo link */}
+            <p className="underline mt-3 text-blue-500 font-semibold">
+              <a
+                href="https://github.com/DevRefaul/UBS-point-client"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Client Side Code
+              </a>
+              <span className="mx-2">|</span>
+              <a
+                href="https://github.com/DevRefaul/ubs-point-server-side"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Server Side Code
+              </a>
+            </p>
+            {/* github repo link */}
+
             <button className="btn bg-green-500 mt-6 border-2 border-transparent hover:bg-white hover:text-green-400 hover:border-green-400">
               <a
                 href="https://usb-point.web.app/"
@@ -49,6 +70,27 @@ const AllProjects = () => {
               hire him to visit many places they have never gone before without
               any hassle.
             </p>
+
+            {/* github repo link */}
+            <p className="underline mt-3 text-blue-500 font-semibold">
+              <a
+                href="https://github.com/DevRefaul/tour-de-bd-client"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Client Side Code
+              </a>
+              <span className="mx-2">|</span>
+              <a
+                href="https://github.com/DevRefaul/tour-de-bd-server"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Server Side Code
+              </a>
+            </p>
+            {/* github repo link */}
+
             <button className="btn bg-green-500 mt-6 border-2 border-transparent hover:bg-white hover:text-green-400 hover:border-green-400">
               <a
                 href="https://tour-de-bangladesh-56160.web.app"
@@ -75,6 +117,27 @@ const AllProjects = () => {
               courses based on trending topics for upgradomg skills. Users can
               buy courses of various skill related topics as their needs.
             </p>
+
+            {/* github repo link */}
+            <p className="underline mt-3 text-blue-500 font-semibold">
+              <a
+                href="https://github.com/DevRefaul/online-patshala-client"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Client Side Code
+              </a>
+              <span className="mx-2">|</span>
+              <a
+                href="https://github.com/DevRefaul/online-patshala-server"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Server Side Code
+              </a>
+            </p>
+            {/* github repo link */}
+
             <button className="btn bg-green-500 mt-6 border-2 border-transparent hover:bg-white hover:text-green-400 hover:border-green-400">
               <a
                 href="https://online-patshala.web.app/"
@@ -99,6 +162,17 @@ const AllProjects = () => {
             <p className="text-lg ">
               E-learn is a online learning platform responsive landing page.
             </p>
+            {/* github code */}
+            <p className="underline mt-3 text-blue-500 font-semibold">
+              <a
+                href="https://github.com/DevRefaul/E-School"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Code
+              </a>
+            </p>
+            {/* github code */}
             <button className="btn bg-green-500 mt-6 border-2 border-transparent hover:bg-white hover:text-green-400 hover:border-green-400">
               <a
                 href="https://devrefaul.github.io/e_programming/"
@@ -123,6 +197,17 @@ const AllProjects = () => {
             <p className="text-lg ">
               Flower. is a online flower selling responsive landing page.
             </p>
+            {/* github code */}
+            <p className="underline mt-3 text-blue-500 font-semibold">
+              <a
+                href="https://github.com/DevRefaul/responsive_flower_website"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Code
+              </a>
+            </p>
+            {/* github code */}
             <button className="btn bg-green-500 mt-6 border-2 border-transparent hover:bg-white hover:text-green-400 hover:border-green-400">
               <a
                 href="https://devrefaul.github.io/responsive_flower_website/"
