@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import resume from "../../../Assets/Main_Resume.pdf";
 
 const Header = () => {
@@ -29,10 +29,26 @@ const Header = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <Link to="/">Home</Link>
+                <NavLink
+                  to="/"
+                  style={({ isActive }) => ({
+                    color: isActive ? "#fff" : "#000",
+                    background: isActive ? "#4ADE80" : "#F8FAFC",
+                  })}
+                >
+                  Home
+                </NavLink>
               </li>
               <li>
-                <Link to="/allprojects">All Projects</Link>
+                <NavLink
+                  to="/allprojects"
+                  style={({ isActive }) => ({
+                    color: isActive ? "#fff" : "#000",
+                    background: isActive ? "#4ADE80" : "#F8FAFC",
+                  })}
+                >
+                  All Projects
+                </NavLink>
               </li>
             </ul>
           </div>
@@ -47,10 +63,26 @@ const Header = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal p-0">
             <li>
-              <Link to="/">Home</Link>
+              <NavLink
+                to="/"
+                style={({ isActive }) => ({
+                  color: isActive ? "#fff" : "#000",
+                  background: isActive ? "#4ADE80" : "#F8FAFC",
+                })}
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <Link to="/allprojects">All Projects</Link>
+              <NavLink
+                to="/allprojects"
+                style={({ isActive }) => ({
+                  color: isActive ? "#fff" : "#000",
+                  background: isActive ? "#4ADE80" : "#F8FAFC",
+                })}
+              >
+                All Projects
+              </NavLink>
             </li>
           </ul>
         </div>
