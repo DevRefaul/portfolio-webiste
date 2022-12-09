@@ -1,0 +1,60 @@
+.firstProject {
+    background-image: url("../../Assets/UBS-Point.png");
+    background-position: top;
+    height: 300px;
+    background-size: cover;
+    transition: background 5s linear;
+}
+
+.firstProject:hover {
+    background-position: bottom;
+}
+
+.secondProject {
+    background-image: url("../../Assets/Tour-DE-Bangladesh-full.png");
+    background-position: top;
+    height: 300px;
+    background-size: cover;
+    transition: background 5s linear;
+}
+
+.secondProject:hover {
+    background-position: bottom;
+}
+
+
+.thirdProject {
+    background-image: url("../../Assets/Online-Patshala-full.png");
+    background-position: top;
+    height: 300px;
+    background-size: cover;
+    transition: background 5s linear;
+}
+
+.thirdProject:hover {
+    background-position: bottom;
+}
+
+.fourthProject {
+    background-image: url("../../Assets/E-learn-Learn-Online.png");
+    background-position: top;
+    height: 300px;
+    background-size: cover;
+    transition: background 5s linear;
+}
+
+.fourthProject:hover {
+    background-position: bottom;
+}
+
+.fifthProject {
+    background-image: url("../../Assets/Rsponsive-Flower-Website (1).png");
+    background-position: top;
+    height: 300px;
+    background-size: cover;
+    transition: background 5s linear;
+}
+
+.fifthProject:hover {
+    background-position: bottom;
+}
