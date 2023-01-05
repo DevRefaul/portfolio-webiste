@@ -1,6 +1,7 @@
 import React from "react";
 import image from "../../../../Assets/smile.png";
 import resume from "../../../../Assets/Main_Resume.pdf";
+import { TypeAnimation } from "react-type-animation";
 
 const Banner = () => {
   return (
@@ -17,9 +18,21 @@ const Banner = () => {
             <h1 className="text-3xl lg:text-6xl font-semibold py-4">
               MD.Refaul Islam
             </h1>
-            <h2 className="text-2xl lg:text-3xl font-semibold">
-              Web Developer
-            </h2>
+            <div className="text-2xl lg:text-3xl font-semibold">
+              <TypeAnimation
+                sequence={[
+                  "Web Developer",
+                  1000,
+                  "Frontend Developer",
+                  1000,
+                  "React Developer",
+                  1000,
+                ]}
+                speed={50} // Custom Speed from 1-99 - Default Speed: 40
+                wrapper="span" // Animation will be rendered as a <span>
+                repeat={Infinity} // Repeat this Animation Sequence infinitely
+              />
+            </div>
 
             {/* resume download btn */}
             <button className="mt-6 bg-lime-500 px-6 py-3 rounded text-white font-semibold hover:bg-lime-400 cursor-pointer">
